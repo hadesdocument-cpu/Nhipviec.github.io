@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chính sách quyền riêng tư – Nhịp Việc</title>
+<style>
+body{font-family:"Segoe UI",Arial,sans-serif;background:#faf9f6;color:#302f28;margin:0;line-height:1.6}
+main{max-width:760px;margin:0 auto;padding:48px 24px}
+h1{font-family:Cambria,Georgia,serif;font-size:30px;margin-bottom:4px}
+h2{font-family:Cambria,Georgia,serif;font-size:20px;margin-top:28px}
+.sub{color:#74756a;margin-top:0}
+a{color:#a8492e}
+</style>
+</head>
+<body>
+<main>
+<p><a href="index.html">← Nhịp Việc</a></p>
+<h1>Chính sách quyền riêng tư</h1>
+<p class="sub">Áp dụng cho ứng dụng Nhịp Việc · Cập nhật ngày 19/11/2026</p>
+
+<h2>1. Dữ liệu tài khoản Google được truy cập</h2>
+<p>Khi bạn đăng nhập bằng Google, Nhịp Việc yêu cầu các quyền sau:</p>
+<ul>
+<li><strong>openid, email, profile</strong>: để biết địa chỉ email và tên hiển thị của bạn, dùng để nhận diện tài khoản trong ứng dụng.</li>
+<li><strong>https://www.googleapis.com/auth/drive.file</strong>: để tạo, đọc và cập nhật <em>chỉ những tệp do Nhịp Việc tạo ra</em> trên Google Drive của bạn. Ứng dụng không xem, không sửa và không xóa bất kỳ tệp nào khác.</li>
+</ul>
+
+<h2>2. Cách sử dụng dữ liệu</h2>
+<p>Nhịp Việc dùng các quyền trên chỉ để lưu và đồng bộ kế hoạch của bạn (công việc, việc con, lịch họp, cài đặt) giữa các máy tính bạn dùng. Ứng dụng tạo thư mục “Nhịp Việc” trên Google Drive của bạn, gồm tệp dữ liệu <code>nhipviec-data.json</code> và bản Excel để xem nhanh.</p>
+
+<h2>3. Nơi lưu trữ dữ liệu</h2>
+<ul>
+<li>Trên Google Drive của chính bạn, trong thư mục “Nhịp Việc”.</li>
+<li>Một bản sao trên máy tính của bạn (thư mục %APPDATA%\NhipViec) để dùng khi mất mạng.</li>
+</ul>
+<p>Nhà phát triển <strong>không có máy chủ riêng</strong>, không thu thập, không nhận và không lưu bất kỳ dữ liệu nào của bạn. Phiên đăng nhập được mã hóa bằng Windows trên máy của bạn.</p>
+
+<h2>4. Chia sẻ dữ liệu</h2>
+<p>Nhịp Việc không bán, không chia sẻ và không chuyển dữ liệu của bạn cho bất kỳ bên thứ ba nào. Dữ liệu không được dùng cho quảng cáo hay để huấn luyện mô hình trí tuệ nhân tạo.</p>
+<p>Việc sử dụng và chuyển thông tin nhận được từ Google API của Nhịp Việc tuân thủ <a href="https://developers.google.com/terms/api-services-user-data-policy">Chính sách dữ liệu người dùng của Google API Services</a>, bao gồm các yêu cầu về Sử dụng giới hạn (Limited Use).</p>
+
+<h2>5. Xóa dữ liệu và thu hồi quyền</h2>
+<ul>
+<li>Đăng xuất trong ứng dụng: Cài đặt → Tài khoản Google → Đăng xuất (thu hồi quyền truy cập).</li>
+<li>Thu hồi quyền bất cứ lúc nào tại <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+<li>Xóa dữ liệu: xóa thư mục “Nhịp Việc” trên Google Drive và thư mục %APPDATA%\NhipViec trên máy tính.</li>
+</ul>
+
+<h2>6. Liên hệ</h2>
+<p>Mọi câu hỏi về quyền riêng tư, vui lòng gửi email tới <a href="mailto:hades.document@gmail.com">hades.document@gmail.com</a>.</p>
+</main>
+</body>
+</html>
